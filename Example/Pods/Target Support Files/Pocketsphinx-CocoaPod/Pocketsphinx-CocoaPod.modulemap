@@ -1,0 +1,6 @@
+framework module Pocketsphinx_CocoaPod {
+  umbrella header "Pocketsphinx-CocoaPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

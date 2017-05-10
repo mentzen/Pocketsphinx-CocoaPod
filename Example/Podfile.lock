@@ -1,0 +1,16 @@
+PODS:
+  - Pocketsphinx-CocoaPod (0.1.0)
+
+DEPENDENCIES:
+  - Pocketsphinx-CocoaPod (from `../`)
+
+EXTERNAL SOURCES:
+  Pocketsphinx-CocoaPod:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Pocketsphinx-CocoaPod: 5ec33e267f6db126448d4960de290c816bfd45a3
+
+PODFILE CHECKSUM: 56fe063907a7d89ed22857c9211c69f2ddb3a630
+
+COCOAPODS: 1.2.1
