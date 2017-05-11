@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Pocketsphinx-CocoaPod'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A simple CocoaPod for Pocketsphinx'
 
   s.description      = <<-DESC
@@ -16,6 +16,6 @@ With this CocoaPod you can use Pocketsphinx on iOS. Build using the iOS build sc
 
   s.source_files = 'Pocketsphinx-CocoaPod/Classes/**/*.h'
 
-  s.dependency 'Sphinxbase-CocoaPod'
+  s.dependency 'Sphinxbase-CocoaPod', '>=0.1'
 
 end
