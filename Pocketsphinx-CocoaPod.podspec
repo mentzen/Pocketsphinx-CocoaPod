@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Pocketsphinx-CocoaPod'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A simple CocoaPod for Pocketsphinx'
 
   s.description      = <<-DESC
@@ -15,11 +15,7 @@ With this CocoaPod you can use Pocketsphinx on iOS. Build using the iOS build sc
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'Pocketsphinx-CocoaPod/Classes/**/*.h'
-  
-  # s.resource_bundles = {
-  #   'Pocketsphinx-CocoaPod' => ['Pocketsphinx-CocoaPod/Assets/*.png']
-  # }
 
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Sphinxbase-CocoaPod'
+
 end
